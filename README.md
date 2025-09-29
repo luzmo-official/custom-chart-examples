@@ -13,7 +13,7 @@ The goal is to provide inspiration and reference material for Luzmo customers wh
 
 | Chart Name                 | Description                              | Source code                                            |
 |----------------------------|------------------------------------------|--------------------------------------------------------|
-| Custom Grouped Bar Chart   | A simple grouped bar chart using D3.js.  | [Source code](./custom-grouped-bar-chart/chart.ts)     |
+| Custom Grouped Bar Chart   | A simple grouped bar chart using D3.js.  | [Source code](./custom-grouped-bar-chart/README.md)     |
 
 ## Contributing
 

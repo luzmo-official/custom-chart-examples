@@ -1,0 +1,30 @@
+{
+  "slots": [
+    {
+      "name": "x-axis",
+      "rotate": false,
+      "label": "X coordinate",
+      "type": "numeric",
+      "options": {
+        "isAggregationDisabled": true,
+        "isBinningDisabled": true,
+        "areDatetimeOptionsEnabled": true
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["numeric"]
+    },
+    {
+      "name": "y-axis",
+      "rotate": true,
+      "label": "Y coordinate",
+      "type": "numeric",
+      "options": {
+        "isAggregationDisabled": true,
+        "isBinningDisabled": true,
+        "areDatetimeOptionsEnabled": true
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["numeric"]
+    }
+  ]
+}

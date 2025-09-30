@@ -13,9 +13,10 @@ The goal is to provide inspiration and reference material for Luzmo customers wh
 
 | Chart Name                 | Description                              | Source code                                            |
 |----------------------------|------------------------------------------|--------------------------------------------------------|
-| Custom grouped bar chart   | A simple grouped bar chart, created with D3.js.  | [Source code](./custom-grouped-bar-chart)     |
-| Waterfall chart     | A waterfall chart, created with D3.js. A waterfall chart helps you visualize step-by-step changes to an initial value. It's a visual breakdown of how a series of additions and subtractions affect your starting point. | [Source code](./waterfall-chart)               |
-| Aggregated scatter chart  | A scatter chart which aggregates the values that coincide both in the x-axis and group-by column  | [Source code](./aggregated-scatter-chart)               |
+| Aggregated scatter chart  | A scatter chart which aggregates the values that coincide both in the x-axis and group-by column  | [Source code](./aggregated-scatter-chart) |
+| Click density map  | Visualizes click frequency on a website using hexagonal bins and color intensity. | [Source code](./click-density-map) |
+| Custom grouped bar chart   | A simple grouped bar chart, created with D3.js.  | [Source code](./custom-grouped-bar-chart) |
+| Waterfall chart     | Visualizes step-by-step value changes from an initial value. | [Source code](./waterfall-chart) |
 
 ## Contributing
 

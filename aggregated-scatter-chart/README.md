@@ -1,4 +1,4 @@
-# Custom Chart - Grouped Bar Chart
+# Custom Chart - Aggregated scatter chart
 
 ![Screenshot of the Aggregated Scatter Chart](./screenshot.png)
 

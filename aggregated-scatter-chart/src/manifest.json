@@ -1,0 +1,39 @@
+{
+  "slots": [
+    {
+      "name": "x-axis",
+      "rotate": false,
+      "position": "center",
+      "label": "X-axis",
+      "type": "numeric",
+      "options": {
+        "isAggregationDisabled": false
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["numeric"]
+    },
+    {
+      "name": "y-axis",
+      "rotate": true,
+      "label": "Y-axis",
+      "type": "numeric",
+      "position": "left",
+      "options": {
+        "isAggregationDisabled": false
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["numeric"]
+    },
+    {
+      "name": "category",
+      "rotate": false,
+      "label": "Group by",
+      "type": "categorical",
+      "options": {
+        "isBinningDisabled": true
+      },
+      "isRequired": false,
+      "acceptableColumnTypes": ["hierarchy", "datetime"]
+    }
+  ]
+}

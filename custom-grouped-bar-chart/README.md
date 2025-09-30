@@ -2,7 +2,6 @@
 
 ![Screenshot of the Grouped Bar Chart](./screenshot.png)
 
-
 ## Using in Luzmo
 
 Upload `bundle.zip` in the Luzmo app in [your Profile settings -> Custom charts](https://app.luzmo.com/settings/custom-charts)

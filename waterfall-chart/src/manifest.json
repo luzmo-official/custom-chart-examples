@@ -1,0 +1,29 @@
+{
+  "slots": [
+    {
+      "name": "category",
+      "label": "Category",
+      "position": "bottom",
+      "type": "categorical",
+      "isRequired": true,
+      "acceptableColumnTypes": ["hierarchy", "datetime"],
+      "options": {
+        "isBinningDisabled": true,
+        "areDatetimeOptionsEnabled": true,
+        "canAcceptMultipleColumns": false
+      }
+    },
+    {
+      "name": "measure",
+      "label": "Value",
+      "position": "middle",
+      "type": "numeric",
+      "isRequired": true,
+      "acceptableColumnTypes": ["numeric"],
+      "options": {
+        "isAggregationDisabled": false,
+        "canAcceptMultipleColumns": false
+      }
+    }
+  ]
+}

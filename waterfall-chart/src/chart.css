@@ -1,0 +1,135 @@
+﻿.waterfall-chart-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  overflow: hidden;
+}
+
+.waterfall-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.waterfall-axis line,
+.waterfall-axis path {
+  stroke: #d0d0d0;
+  stroke-width: 1px;
+}
+
+.waterfall-axis text {
+  fill: #555;
+  font-size: 12px;
+}
+
+.waterfall-baseline {
+  stroke: #9e9e9e;
+  stroke-width: 1px;
+  stroke-dasharray: 2 2;
+}
+
+.waterfall-bar-rect {
+  cursor: pointer;
+  transition: filter 0.2s ease, opacity 0.2s ease;
+}
+
+.waterfall-bar.is-active .waterfall-bar-rect {
+  filter: brightness(1.15);
+  stroke: rgba(0, 0, 0, 0.2);
+  stroke-width: 1.5px;
+}
+
+.waterfall-bar:hover .waterfall-bar-rect {
+  filter: brightness(1.1);
+}
+
+.waterfall-connector {
+  stroke-dasharray: 4 2;
+  opacity: 0.7;
+  transition: opacity 0.2s ease, stroke 0.2s ease;
+  pointer-events: none;
+}
+
+.waterfall-connector.is-active {
+  opacity: 1;
+  stroke: #424242;
+  stroke-width: 2px;
+}
+
+.waterfall-bar-label {
+  font-size: 12px;
+  font-weight: 600;
+  fill: #333;
+  pointer-events: none;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.7);
+}
+
+.waterfall-bar-label.is-invert {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+.waterfall-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 12px;
+  background: rgba(33, 33, 33, 0.92);
+  color: #fff;
+  border-radius: 6px;
+  pointer-events: none;
+  font-size: 12px;
+  line-height: 1.4;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.24);
+  transform: translate(-9999px, -9999px);
+  transition: opacity 0.15s ease;
+  opacity: 0;
+  z-index: 10;
+}
+
+.waterfall-tooltip.is-visible {
+  opacity: 1;
+}
+
+.waterfall-tooltip__title {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.waterfall-tooltip__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  text-align: center;
+  color: #666;
+  padding: 24px;
+  gap: 8px;
+}
+
+.empty-state-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.empty-state-message {
+  font-size: 13px;
+  max-width: 280px;
+}
+
+@media (max-width: 480px) {
+  .waterfall-axis text {
+    font-size: 11px;
+  }
+
+  .waterfall-bar-label {
+    font-size: 11px;
+  }
+}
+

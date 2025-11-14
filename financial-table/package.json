@@ -1,0 +1,19 @@
+{
+  "name": "custom-chart",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "esbuild src/index.ts --bundle --minify --outfile=../../custom-chart-build-output/index.js --format=esm && esbuild src/chart.css --minify --outfile=../../custom-chart-build-output/index.css",
+    "watch": "node watch.js"
+  },
+  "dependencies": {
+    "@luzmo/dashboard-contents-types": "^1.0.10",
+    "@tanstack/table-core": "^8.21.2",
+    "nanostores": "^0.11.4"
+  },
+  "devDependencies": {
+    "esbuild": "^0.24.2",
+    "typescript": "~5.3.2"
+  }
+}

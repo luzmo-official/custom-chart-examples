@@ -17,6 +17,7 @@ The goal is to provide inspiration and reference material for Luzmo customers wh
 | Click density map  | ![Click density map](./click-density-map/screenshot.png) | Visualizes click frequency on a website using hexagonal bins and color intensity. | [Source code](./click-density-map) |
 | Custom grouped bar chart   | ![Custom grouped bar chart](./custom-grouped-bar-chart/screenshot.png) | A simple grouped bar chart, created with D3.js.  | [Source code](./custom-grouped-bar-chart) |
 | Waterfall chart     | ![Waterfall chart](./waterfall-chart/screenshot.png) | Visualizes step-by-step value changes from an initial value. | [Source code](./waterfall-chart) |
+| Financial table     | ![Financial table](./financial-table/screenshot.png) | Table with aggregation for subcategories. | [Source code](./financial-table) |
 
 ## Contributing
 

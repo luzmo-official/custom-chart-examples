@@ -19,7 +19,7 @@ Use the Small Multiples widget when:
 * **You want to highlight similarities and differences in shape or pattern.**
   Because the chart designs are identical, differences stand out immediately.
 
-![Screen recording of the Small Multiples Widget with different chart modes](./screenshots.gif)
+https://github.com/user-attachments/assets/5745cdbf-4bba-4e14-89d8-88c0bb9e40c9
 
 ## Using in Luzmo
 

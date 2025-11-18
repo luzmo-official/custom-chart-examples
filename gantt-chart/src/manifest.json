@@ -1,0 +1,58 @@
+{
+  "slots": [
+    {
+      "name": "name",
+      "rotate": false,
+      "label": "Task Name",
+      "type": "categorical",
+      "options": {
+        "isBinningDisabled": true
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["hierarchy"],
+      "position": "bottom",
+      "order": 1
+    },
+    {
+      "name": "time",
+      "rotate": false,
+      "label": "Start Date",
+      "type": "categorical",
+      "options": {
+        "isBinningDisabled": true,
+        "areDatetimeOptionsEnabled": true
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["datetime"],
+      "position": "top",
+      "order": 2
+    },
+    {
+      "name": "evolution",
+      "rotate": false,
+      "label": "End Date",
+      "type": "categorical",
+      "options": {
+        "isBinningDisabled": true,
+        "areDatetimeOptionsEnabled": true
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["datetime"],
+      "position": "top-right",
+      "order": 3
+    },
+    {
+      "name": "legend",
+      "rotate": true,
+      "label": "Group/Resource",
+      "type": "categorical",
+      "options": {
+        "isBinningDisabled": true
+      },
+      "isRequired": false,
+      "acceptableColumnTypes": ["hierarchy"],
+      "position": "right",
+      "order": 4
+    }
+  ]
+}

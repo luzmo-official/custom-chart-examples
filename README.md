@@ -16,9 +16,11 @@ The goal is to provide inspiration and reference material for Luzmo customers wh
 | Aggregated scatter chart  | ![Aggregated scatter chart](./aggregated-scatter-chart/screenshot.png) | A scatter chart which aggregates the values that coincide both in the x-axis and group-by column  | [Source code](./aggregated-scatter-chart) |
 | Click density map  | ![Click density map](./click-density-map/screenshot.png) | Visualizes click frequency on a website using hexagonal bins and color intensity. | [Source code](./click-density-map) |
 | Custom grouped bar chart   | ![Custom grouped bar chart](./custom-grouped-bar-chart/screenshot.png) | A simple grouped bar chart, created with D3.js.  | [Source code](./custom-grouped-bar-chart) |
-| Waterfall chart     | ![Waterfall chart](./waterfall-chart/screenshot.png) | Visualizes step-by-step value changes from an initial value. | [Source code](./waterfall-chart) |
 | Financial table     | ![Financial table](./financial-table/screenshot.png) | Table with aggregation for subcategories. | [Source code](./financial-table) |
+| Gantt Chart     | ![Gantt Chart](./gantt-chart/screenshot.png) | Bar chart that illustrates a project schedule. | [Source code](./gantt-chart) |
 | Small Multiples Widget     | <video muted autoplay loop src="https://github.com/user-attachments/assets/5745cdbf-4bba-4e14-89d8-88c0bb9e40c9" width="300" />  | Individual chart tiles per dimension. | [Source code](./small-multiples-widget) |
+| Waterfall chart     | ![Waterfall chart](./waterfall-chart/screenshot.png) | Visualizes step-by-step value changes from an initial value. | [Source code](./waterfall-chart) |
+
 
 ## Contributing
 

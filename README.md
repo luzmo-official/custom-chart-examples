@@ -18,7 +18,7 @@ The goal is to provide inspiration and reference material for Luzmo customers wh
 | Custom grouped bar chart   | ![Custom grouped bar chart](./custom-grouped-bar-chart/screenshot.png) | A simple grouped bar chart, created with D3.js.  | [Source code](./custom-grouped-bar-chart) |
 | Waterfall chart     | ![Waterfall chart](./waterfall-chart/screenshot.png) | Visualizes step-by-step value changes from an initial value. | [Source code](./waterfall-chart) |
 | Financial table     | ![Financial table](./financial-table/screenshot.png) | Table with aggregation for subcategories. | [Source code](./financial-table) |
-| Small Multiples Widget     | ![Small Multiples Widget](./small-multiples-widget/screenrecording.mp4) | Individual chart tiles per dimension. | [Source code](./small-multiples-widget) |
+| Small Multiples Widget     | <video muted autoplay loop src="https://github.com/user-attachments/assets/06a1b940-a027-4efa-ae7a-a8aaa65584d1" width="300" />  | Individual chart tiles per dimension. | [Source code](./small-multiples-widget) |
 
 ## Contributing
 

@@ -1,0 +1,41 @@
+{
+  "slots": [
+    {
+      "name": "category",
+      "rotate": false,
+      "label": "Facet",
+      "type": "categorical",
+      "position": "top",
+      "options": {
+        "isBinningDisabled": true
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["hierarchy", "datetime", "numeric"]
+    },
+    {
+      "name": "time",
+      "rotate": false,
+      "label": "Axis",
+      "type": "categorical",
+      "position": "bottom",
+      "options": {
+        "isBinningDisabled": true,
+        "areDatetimeOptionsEnabled": true
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["hierarchy", "datetime", "numeric"]
+    },
+    {
+      "name": "measure",
+      "rotate": false,
+      "label": "Measure",
+      "type": "numeric",
+      "position": "middle",
+      "options": {
+        "isAggregationDisabled": false
+      },
+      "isRequired": true,
+      "acceptableColumnTypes": ["hierarchy", "datetime", "numeric"]
+    }
+  ]
+}

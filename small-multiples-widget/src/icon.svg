@@ -1,0 +1,20 @@
+<svg aria-hidden="true" focusable="false" role="img" xmlns="http://www.w3.org/2000/svg" style="overflow: visible; box-sizing: content-box;height: 1em; vertical-align: var(--luzmo-icon-vertical-align, var(--icon-vertical-align, -.125em));" data-icon="small-multiples" viewBox="0 0 32 32" class="luzmo-icon luzmo-icon-small-multiples" fill="currentColor">
+  <g transform="translate(-1,-1) scale(1.142857)">
+    <!-- Top left: Column chart -->
+    <path d="M1 1h1v12h12v1h-13z" style="fill:#888888"></path>
+    <path d="M3 8h2v5h-2zM6 6h2v7h-2zM9 7h2v6h-2z" style="fill:#3B82F6"></path>
+    
+    <!-- Top right: Line chart -->
+    <path d="M17 1h1v12h12v1h-13z" style="fill:#888888"></path>
+    <path d="M18 12 L19.5 8 L21 10 L22.5 6 L24 10 L25.5 8 L27 12" style="fill:none;stroke:#3B82F6;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round"></path>
+    
+    <!-- Bottom left: Area chart -->
+    <path d="M1 17h1v12h12v1h-13z" style="fill:#888888"></path>
+    <path d="M2 29 L3.5 23 L5 26 L6.5 20 L8 26 L9.5 23 L11 29 Z" style="fill:#3B82F6;opacity:0.65"></path>
+    <path d="M2 29 L3.5 23 L5 26 L6.5 20 L8 26 L9.5 23 L11 29" style="fill:none;stroke:#3B82F6;stroke-width:0.1;stroke-linecap:round;stroke-linejoin:round"></path>
+    
+    <!-- Bottom right: Column chart -->
+    <path d="M17 17h1v12h12v1h-13z" style="fill:#888888"></path>
+    <path d="M19 24h2v6h-2zM22 22h2v8h-2zM25 23h2v7h-2z" style="fill:#3B82F6"></path>
+  </g>
+</svg>

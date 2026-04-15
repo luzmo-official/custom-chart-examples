@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
+   fill="none"
+   version="1.1"
+   id="svg6"
+   sodipodi:docname="icon.svg"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     inkscape:zoom="0.44326756"
+     inkscape:cx="-215.4455"
+     inkscape:cy="312.45237"
+     inkscape:window-width="1080"
+     inkscape:window-height="1861"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M 22.6,7 V 20.8"
+     stroke="#33363f"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path1"
+     style="stroke-width:0.99;stroke-dasharray:none"
+     sodipodi:nodetypes="cc" />
+  <path
+     d="m 7.6,21 h 2"
+     stroke="#33363f"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path2"
+     style="stroke:#ff0000" />
+  <path
+     d="M 7.6,13 H 13"
+     stroke="#33363f"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path3"
+     sodipodi:nodetypes="cc"
+     style="stroke:#ff6600" />
+  <path
+     d="M 7.6,17 H 9.4"
+     stroke="#33363f"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path4"
+     sodipodi:nodetypes="cc"
+     style="stroke:#ff0000" />
+  <path
+     d="m 7.6,9 h 8.6"
+     stroke="#33363f"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path5"
+     sodipodi:nodetypes="cc"
+     style="stroke:#ffcc00" />
+  <path
+     d="m 7.6,5 h 10"
+     stroke="#33363f"
+     stroke-width="2"
+     stroke-linecap="round"
+     id="path6"
+     style="stroke:#00ff00" />
+</svg>

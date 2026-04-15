@@ -15,6 +15,7 @@ The goal is to provide inspiration and reference material for Luzmo customers wh
 |----------------------------|------------|------------------------------------------|--------------------------------------------------------|
 | Aggregated scatter chart  | ![Aggregated scatter chart](./aggregated-scatter-chart/screenshot.png) | A scatter chart which aggregates the values that coincide both in the x-axis and group-by column  | [Source code](./aggregated-scatter-chart) |
 | Click density map  | ![Click density map](./click-density-map/screenshot.png) | Visualizes click frequency on a website using hexagonal bins and color intensity. | [Source code](./click-density-map) |
+| Colored scrollable bar chart     | <video muted autoplay loop src="https://github.com/user-attachments/assets/7a4b6a12-e1c0-4e3a-9487-e6c0ebc42159" width="300" />  | Bar chart with scrolling capability and conditional color coding | [Source code](./colored-scrollable-bar-chart) |
 | Custom grouped bar chart   | ![Custom grouped bar chart](./custom-grouped-bar-chart/screenshot.png) | A simple grouped bar chart, created with D3.js.  | [Source code](./custom-grouped-bar-chart) |
 | Financial table     | ![Financial table](./financial-table/screenshot.png) | Table with aggregation for subcategories. | [Source code](./financial-table) |
 | Gantt Chart     | ![Gantt Chart](./gantt-chart/screenshot.png) | Bar chart that illustrates a project schedule. | [Source code](./gantt-chart) |

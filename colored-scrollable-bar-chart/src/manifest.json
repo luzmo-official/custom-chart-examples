@@ -1,0 +1,31 @@
+{
+  "slots": [
+    {
+      "name": "category",
+      "rotate": false,
+      "label": "Category",
+      "type": "categorical",
+      "order": 1,
+      "options": {
+        "isBinningDisabled": true,
+        "areDatetimeOptionsEnabled": true
+      },
+      "isRequired": true,
+      "position": "bottom",
+      "acceptableColumnTypes": ["hierarchy", "datetime"]
+    },
+    {
+      "name": "measure",
+      "rotate": false,
+      "label": "Measure",
+      "type": "numeric",
+      "order": 2,
+      "options": {
+        "isAggregationDisabled": false
+      },
+      "isRequired": true,
+      "position": "middle",
+      "acceptableColumnTypes": ["numeric"]
+    }
+  ]
+}
